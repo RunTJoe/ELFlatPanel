@@ -16,7 +16,7 @@ Features:
 
 The panel is designed for my 120mm refractor. I have mounted a 160mm EL panel into a 3D printed telescope cover. A servo motor opens and closes the cover.
 
-![](resources\images\IMG_9714.JPG)
+![](resources/images/IMG_9714.JPG)
 
 Brightness and open/close operation are controlled by software using an "Alnitak Generic Commands" compatible protocol. This protocol is supported by several imaging software, I have tested operation in depth with imaging software "[Voyager](https://software.starkeeper.it/)" and briefly with "[N.I.N.A.](https://nighttime-imaging.eu/)".
 
@@ -34,11 +34,11 @@ The panel is a cheap 160mm EL panel from Aliexpress. My controller is designed t
 
 The whole enclosure, servo motor attachment and telescope "tube ring" are 3D printed. I have added a laser cut acrylic diffusor plate, although I don’t know whether this necessary.
 
-![](resources\images\elflatpanel3dm1.png)
+![](resources/images/elflatpanel3dm1.png)
 
-![](resources\images\elflatpanel3dm1b.png)
+![](resources/images/elflatpanel3dm1b.png)
 
-![](resources\images\elflatpanel3dm2.png)
+![](resources/images/elflatpanel3dm2.png)
 
 ### Controller
 
@@ -46,24 +46,24 @@ The whole enclosure, servo motor attachment and telescope "tube ring" are 3D pri
 
 The controller is based on an Arduino Nano. I have designed a PCB (using KiCAD) to fit into a very compact project box (8x5x2cm) which remains fixed on the refractor while it is stored in the telescope case. 
 
-![](resources\images\IMG_9479.jpg)
+![](resources/images/IMG_9479.jpg)
 
 By default, the Arduino resets on each connect by the USB serial port. By shorting JP1 with a jumper this reset can be disabled. This is useful if the controller is connected to software with tight timeouts. You must remove the jumper if you want to update the Arduino firmware.
 
-![](resources\images\ControllerOverview.jpg)
+![](resources/images/ControllerOverview.jpg)
 
 Front and back plates of the box are aluminum "PCBs" produced at the same PCB manufacturer ([JLCPCB](https://jlcpcb.com/)).
 
-![](resources\images\IMG_9699.JPG)
+![](resources/images/IMG_9699.JPG)
 
-![](resources\images\IMG_9700.jpg)
+![](resources/images/IMG_9700.jpg)
 
 **Note**: The manufacturer JLCPCB adds by default an order number on each PCB. If you spend \$1.50 more, you can choose an [option to get the PCB without the order number](https://support.jlcpcb.com/article/28-how-to-put-jlc-production-id-at-a-specified-area-on-the-pcb).
 
-![](resources\images\IMG_9481.jpg)
+![](resources/images/IMG_9481.jpg)
 
 The mini-USB connector of the Arduino Nano is routed to a more reliable USB-B connector. Supply voltage is the usual 12V, a DC/DC converter module on the PCB provides 5V power for the servo motor. I have bought the Arduino and DC/DC converter as complete modules, all other components are just hand soldered on my own PCB (the red PCB on the image). 
 
-![](resources\images\IMG_9696.JPG)
+![](resources/images/IMG_9696.JPG)
 
 **Note**: The DC/DC converter has adjustable output voltage and must be adjusted to a voltage fitting the servo (usually 5V).
