@@ -1,6 +1,5 @@
 # DIY Electroluminescence Flatfield Panel
 
----
 
 ### Overview
 
