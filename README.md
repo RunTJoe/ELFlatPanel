@@ -71,3 +71,17 @@ The mini-USB connector of the Arduino Nano is routed to a more reliable USB-B co
 The servo is an RDS3115 with a range of 270 degrees. With my servo attachment about 225 degrees can be used.
 
 ![](resources/images/IMG_9484.jpg)
+
+
+
+The exact PWM values for opening and closing angles can be adjusted in the firmware:
+
+```
+const int SERVOPOS_CLOSE = 3;        // servo position for closed cover
+const int SERVOPOS_OPEN = 158;       // servo position for open cover 
+```
+
+
+For easy evaluation of the proper settings, I have extended the Alnitak protocol with an additional command to set any PWM value:
+
+\>Zddd*CR*      Set ddd as servo PWM value
