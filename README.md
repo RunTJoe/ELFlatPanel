@@ -20,15 +20,11 @@ Brightness and open/close operation are controlled by software using an "Alnitak
 
 Meanwhile I have successfully tested the panel for a whole night of unattended operation with temperatures below 0°C/ 32°F. During this night I shot multiple targets with different rotator angles and got the fitting flats for each rotator position. The imaging software automatically determined the correct brightness for luminance and narrowband filters and a fixed exposure time to fit my flatdark library.
 
-
-
 ## Panel
 
 The panel is a cheap 160mm EL panel from Aliexpress. The controller is designed to be connected to a 12V inverter.
 
 ![](resources/images/IMG_9486.jpg)
-
-## 
 
 ## Enclosure/Mounting
 
@@ -41,8 +37,6 @@ The whole enclosure, servo motor attachment and telescope "tube ring" are 3D pri
 ![](resources/images/elflatpanel3dm2.png)
 
 ![](resources/images/IMG_9341.jpg)
-
-## 
 
 ## Controller
 
@@ -71,8 +65,6 @@ The mini-USB connector of the Arduino Nano is routed to a more reliable USB-B co
 ![](resources/images/IMG_9696.JPG)
 
 **Note**: The DC/DC converter has adjustable output voltage and must be adjusted to a voltage fitting the servo (usually 5V).
-
-## 
 
 ## Servo
 
