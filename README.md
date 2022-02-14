@@ -84,4 +84,4 @@ const int SERVOPOS_OPEN = 158;       // servo position for open cover
 
 For easy evaluation of the proper settings, I have extended the Alnitak protocol with an additional command to set any PWM value:
 
-\>Zddd*CR*      Set ddd as servo PWM value
+\>Zddd*CR*      // Set ddd as servo PWM value
